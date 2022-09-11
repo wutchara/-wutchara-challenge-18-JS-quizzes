@@ -1,0 +1,15 @@
+console.log('============================');
+
+// TODO: not finished
+const sumAllterms = (dimensions) => {
+    const n = (dimensions - 1)/2;
+    return (3 + (2 * n * ((8*n*n) + (15*n) + 13))) / 3;
+}
+console.log("3 x 3 = ", sumAllterms(3));
+console.log("5 x 5 = ", sumAllterms(5));
+console.log("7 x 7 = ", sumAllterms(7));
+console.log("8 x 8 = ", sumAllterms(8));
+console.log("9 x 9 = ", sumAllterms(9));
+console.log("12 x 12 = ", sumAllterms(12));
+
+console.log('============================');
